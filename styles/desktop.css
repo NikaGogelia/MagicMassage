@@ -1,0 +1,165 @@
+@media only screen and (min-width: 1024px) {
+  :root {
+    /* Padding */
+    --xPadding: 5em;
+  }
+
+  .navbar {
+    padding: 1em var(--xPadding);
+  }
+
+  .introduction-block,
+  .purchase-content,
+  .feedback-block,
+  .faq-block {
+    padding: 4em var(--xPadding);
+  }
+
+  /* ------------------------ Components ------------------------ */
+
+  /* ------------------------ Header ------------------------ */
+  .navbar {
+    grid-template-columns: 25% 50% 25%;
+    grid-template-rows: 1fr;
+  }
+
+  .nav-message {
+    padding: 0.4em 0;
+  }
+
+  .nav-message > h5 {
+    font-size: 0.7em;
+  }
+
+  .nav-brand > img {
+    width: 10em;
+  }
+
+  .nav-links a {
+    font-size: 1em;
+  }
+
+  .order-btn {
+    font-size: 0.85em;
+    padding: 0.8em 3em;
+  }
+
+  /* ------------------------ Main ------------------------ */
+  /* Introduction Block */
+  .introduction-content {
+    grid-template-columns: 60% 40%;
+    grid-template-rows: 1fr;
+    gap: 0 20px;
+  }
+
+  .introduction-header > h1 {
+    font-size: 3em;
+  }
+
+  .introduction-header > img {
+    width: 7em;
+  }
+
+  .content:first-of-type > * {
+    margin: 1em 0;
+  }
+
+  .content:first-of-type > p {
+    font-size: 1.4em;
+    width: 40em;
+  }
+
+  .product-desc {
+    padding: 1em;
+    width: 55em;
+    height: 10em;
+  }
+
+  .desc {
+    line-height: 2;
+  }
+
+  .desc > img {
+    margin-bottom: 1em;
+  }
+
+  .desc > h4 {
+    font-size: 1em;
+  }
+
+  .desc li {
+    font-size: 0.8em;
+  }
+
+  .desc-border {
+    height: 10em;
+    margin: 0 2.5em;
+  }
+
+  .get-product-btn {
+    padding: 1em 5em;
+    font-size: 1.2em;
+  }
+
+  .informational-message {
+    width: 15em;
+    padding: 0.5em;
+    font-size: 0.9em;
+  }
+
+  .intro-product {
+    width: 80%;
+  }
+
+  .customer-review {
+    padding: 0.8em;
+    width: 35em;
+  }
+
+  .customer-review > img {
+    width: 4.5em;
+    height: 4.5em;
+    margin-right: 1em;
+  }
+
+  .review > p {
+    font-size: 0.85em;
+    width: 30em;
+    margin-bottom: 0.5em;
+  }
+
+  .marks > .stars {
+    margin-right: 0.8em;
+  }
+
+  .marks > .stars img {
+    width: 0.8em;
+    height: 0.8em;
+  }
+
+  .marks > .stars p {
+    font-size: 0.7em;
+    margin-left: 0.5em;
+  }
+
+  .marks > .buyer-stats img {
+    width: 1em;
+    height: 1em;
+  }
+
+  .marks > .buyer-stats p {
+    font-size: 0.8em;
+    margin-left: 0.3em;
+  }
+
+  /* Purchase Product Block */
+  .purchase-header {
+    padding: 1em 0;
+  }
+
+  /* ------------------------ Footer ------------------------ */
+  .faq-content {
+    grid-template-columns: 40% 60%;
+    grid-template-rows: 1fr;
+  }
+}
