@@ -157,9 +157,199 @@
     padding: 1em 0;
   }
 
+  .purchase-header > div {
+    margin: 0 1em;
+  }
+
+  .purchase-header > div > div {
+    padding: 0.6em;
+    margin-right: 0.5em;
+  }
+
+  .purchase-card-img {
+    bottom: 2.2em;
+    width: 20em;
+    height: 8em;
+    margin: 0;
+  }
+
+  .purchase-content > h1 {
+    font-size: 2.3em;
+  }
+
+  .purchase-product-cards {
+    margin-top: 2.5em;
+  }
+
+  .purchase-card {
+    width: 25em;
+    margin-right: 4em;
+    padding: 1em;
+  }
+
+  .purchase-card:last-of-type {
+    margin-right: 0;
+  }
+
+  .purchase-card > * {
+    margin: 0.4em 0;
+  }
+
+  .product-review {
+    padding: 0.5em 1em;
+    font-size: 0.8em;
+  }
+
+  .card-rounded-icon {
+    right: 3em;
+    top: 8em;
+  }
+
+  .purchase-card > h2 {
+    font-size: 1.9em;
+  }
+
+  .purchase-card > h3 {
+    font-size: 1.7em;
+  }
+
+  .purchase-card p {
+    font-size: 0.95em;
+  }
+
+  s {
+    margin-left: 0.5em;
+  }
+
+  .afterpay {
+    padding: 0.1em 0.5em;
+    margin-left: 0.2em;
+  }
+
+  .big-sale {
+    padding-bottom: 0.6em;
+  }
+
+  .big-sale > div {
+    margin-bottom: 0.6em;
+  }
+
+  .big-sale > div > div {
+    padding: 0.6em;
+  }
+
+  .big-sale > div > p {
+    margin-left: 0.6em;
+  }
+
+  .get-your-magic-btn {
+    padding: 1em 0;
+    font-size: 1.05em;
+  }
+
+  /* Feedback Block */
+  .feedback-header > h1 {
+    font-size: 2.3em;
+  }
+
+  .feedback-total {
+    margin: 2em 0;
+  }
+
+  .write-review-btn {
+    padding: 0.5em 1em;
+    font-size: 1em;
+  }
+
+  .feedback-card {
+    width: 23em;
+    margin-right: 2em;
+  }
+
+  .feedback-card:last-of-type {
+    margin-right: 0;
+  }
+
+  .feedback-total > .stars img {
+    width: 1.1em;
+    height: 1.1em;
+  }
+
+  .feedback-total > .stars p {
+    margin-left: 0.8em;
+    font-size: 1em;
+  }
+
+  .feedback-card-body {
+    padding: 0.8em 1em;
+  }
+
+  .feedback-stats > .stars img {
+    width: 0.9em;
+    height: 0.9em;
+  }
+
+  .feedback-stats > .stars p {
+    font-size: 0.8em;
+  }
+
+  .feedback-stats > .buyer-stats img {
+    width: 1.2em;
+    height: 1.2em;
+  }
+
+  .feedback-stats > .buyer-stats p {
+    font-size: 0.9em;
+    margin-left: 0.5em;
+  }
+
+  .feedback-text {
+    font-size: 1.05em;
+    margin-top: 0.5em;
+  }
+
   /* ------------------------ Footer ------------------------ */
+  .faq-header > h1 {
+    font-size: 2.3em;
+  }
+
   .faq-content {
+    margin-top: 3em;
     grid-template-columns: 40% 60%;
     grid-template-rows: 1fr;
+  }
+
+  .faq-img img {
+    width: 30em;
+    height: 20em;
+  }
+
+  .faq-accordion {
+    margin-left: 5em;
+  }
+
+  .faq-accordion > div > * {
+    margin-bottom: 1em;
+  }
+
+  .faq-accordion > div > :last-of-type {
+    margin-bottom: 0;
+  }
+
+  .accordion {
+    width: 50em;
+  }
+
+  .accordion-header,
+  .activate-accordion .accordion-content {
+    padding: 1.1em;
+  }
+
+  .activate-accordion .accordion-content {
+    height: auto !important;
+  }
+
+  .see-all p {
+    margin-right: 1em;
   }
 }
