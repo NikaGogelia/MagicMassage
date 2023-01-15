@@ -1,2 +1,93 @@
 @media only screen and (max-width: 425px) {
+  /* ------------------------ Header ------------------------ */
+  .nav-message > h5 {
+    font-size: 0.2em;
+  }
+
+  .nav-message {
+    padding: 0.3em 0;
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .nav-links,
+  .navbar > div:last-of-type {
+    display: none !important;
+  }
+
+  /* ------------------------ Main ------------------------ */
+  /* Introduction Block */
+  .introduction-header {
+    margin-bottom: 1em;
+  }
+
+  .content:first-of-type > p {
+    font-size: 2.2vw;
+    width: 40em;
+    text-align: center;
+  }
+
+  .product-desc {
+    padding: 1.5em;
+    width: 80%;
+    height: 2em;
+  }
+
+  .desc > h4 {
+    font-size: 1.5vw;
+  }
+
+  .desc li {
+    font-size: 1vw;
+  }
+
+  .desc-border {
+    margin: 0 1em;
+    height: 3em;
+  }
+
+  .get-product-btn {
+    padding: 0.7em 3.5em;
+    font-size: 0.5em;
+  }
+
+  .informational-message {
+    font-size: 0.4em;
+  }
+
+  .customer-review {
+    padding: 0.4em;
+  }
+
+  .customer-review > img {
+    width: 2em;
+    height: 2em;
+    margin-right: 0.7em;
+  }
+
+  .review > p {
+    font-size: 1vw;
+    width: 90%;
+  }
+
+  .marks > .stars {
+    margin-right: 0.8em;
+  }
+
+  .marks > .stars img {
+    width: 0.4em;
+    height: 0.4em;
+  }
+
+  .marks > .stars p {
+    font-size: 1vw;
+  }
+
+  .marks > .buyer-stats p {
+    font-size: 1vw;
+  }
 }
