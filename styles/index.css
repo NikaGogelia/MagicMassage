@@ -52,6 +52,10 @@
   background-color: var(--darkBlue);
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: var(--white);
   font-family: var(--montLight);
@@ -135,6 +139,8 @@ button {
 /* Buyer Stats */
 .buyer-stats {
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Accordion */
@@ -158,11 +164,23 @@ button {
   transition: var(--transitionTime);
 }
 
+.accordion-header,
+.accordion-content {
+  transition: 0.2s;
+}
+
 .accordion-content {
   height: 0;
   opacity: 0;
   z-index: -1;
-  transition: 0.2s;
+}
+
+.activate-accordion .accordion-header img {
+  transform: rotate(180deg);
+}
+
+.activate-accordion .accordion-header {
+  color: var(--white);
 }
 
 .activate-accordion .accordion-content {
@@ -170,13 +188,13 @@ button {
   z-index: 1 !important;
 }
 
-.activate-accordion .accordion-header img {
-  transform: rotate(180deg);
-}
-
 /* ------------------------ Header ------------------------ */
 .navigation {
   width: 100%;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 3;
 }
 
 .nav-message {
@@ -191,8 +209,9 @@ button {
 
 .navbar {
   display: grid;
-  background-color: var(--light);
-  box-shadow: 0 2px 4px var(--lightShadow);
+  background-color: rgb(240, 252, 255);
+  opacity: 1;
+  box-shadow: 0 8px 10px var(--lightShadow);
 }
 
 .navbar > div,
@@ -234,6 +253,10 @@ button {
   color: var(--darkestBlue) !important;
 }
 
+aside {
+  display: none;
+}
+
 /* ------------------------ Main ------------------------ */
 /* Introduction Block */
 .introduction-block,
@@ -271,10 +294,6 @@ button {
   flex-direction: column;
   align-items: center;
 }
-
-/* .product-desc > div:last-of-type {
-  border: none;
-} */
 
 .desc-border {
   background-color: rgba(174, 204, 255, 0.5);
@@ -429,6 +448,7 @@ s {
 }
 
 .big-sale > div {
+  border-top: none !important;
   border: 1px solid var(--lightBlue);
 }
 
@@ -447,7 +467,7 @@ s {
 .feedback-total,
 .customer-feedback,
 .feedback-stats,
-.see-all {
+.feedback-slideshow-buttons > div {
   display: flex;
 }
 
@@ -490,6 +510,11 @@ s {
   background-color: var(--white);
   border: 1px solid #e9e9e9;
   border-radius: 15px;
+  transition: var(--transitionTime);
+}
+
+.feedback-card:hover {
+  transform: scale(1.02);
 }
 
 .feedback-card > img {
@@ -511,9 +536,31 @@ s {
   color: var(--green);
 }
 
+.feedback-slideshow-buttons {
+  display: none;
+}
+
+.feedback-slideshow-buttons > div {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.slideshow-button {
+  background-color: #cbced6;
+  border-radius: 100%;
+  cursor: pointer;
+  transition: var(--transitionTime);
+}
+
+.slideshow-button-active {
+  background-color: var(--blue);
+}
+
 /* ------------------------ Footer ------------------------ */
 .faq-block,
-.faq-content > div {
+.faq-content > div,
+.see-all {
   display: flex;
 }
 

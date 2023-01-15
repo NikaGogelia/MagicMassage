@@ -13,21 +13,21 @@
     <link rel="stylesheet" href="./styles/tablet.css" />
     <link rel="stylesheet" href="./styles/mobile.css" />
   </head>
-  <body>
+  <body id="why">
+    <section class="nav-message">
+      <h5>SPRING BUNDLE SALE! &nbsp;&nbsp;&nbsp;USE CODE:SPRING20</h5>
+    </section>
     <header class="navigation">
-      <div class="nav-message">
-        <h5>SPRING BUNDLE SALE! &nbsp;&nbsp;&nbsp;USE CODE:SPRING20</h5>
-      </div>
       <nav class="navbar">
         <div class="nav-brand">
           <img src="./assets/icons/brand-logo.svg" alt="brand-logo" />
         </div>
         <div class="nav-links">
           <ul>
-            <li class="nav-active"><a href="">Why MagicMassage</a></li>
-            <li><a href="">Features</a></li>
-            <li><a href="">Reviews</a></li>
-            <li><a href="">FAQ</a></li>
+            <li class="nav-active"><a href="#why">Why MagicMassage</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#reviews">Reviews</a></li>
+            <li><a href="#faq">FAQ</a></li>
           </ul>
         </div>
         <div>
@@ -35,6 +35,16 @@
         </div>
       </nav>
     </header>
+    <aside>
+      <div class="nav-links">
+        <ul>
+          <li class="nav-active"><a href="#why">Why MagicMassage</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#reviews">Reviews</a></li>
+          <li><a href="#faq">FAQ</a></li>
+        </ul>
+      </div>
+    </aside>
     <main>
       <!-- ------------------ INTRODUCTION BLOCK ------------------ -->
       <div class="introduction-block">
@@ -156,7 +166,7 @@
         </div>
       </div>
       <!-- ------------------ PURCHASE PRODUCT BLOCK ------------------ -->
-      <div class="purchase-product-block">
+      <div class="purchase-product-block" id="features">
         <div class="purchase-header">
           <div class="free-shipping-message">
             <div>
@@ -325,7 +335,7 @@
         </div>
       </div>
       <!-- ------------------ FEEDBACK BLOCK ------------------ -->
-      <div class="feedback-block">
+      <div class="feedback-block" id="reviews">
         <div>
           <div class="feedback-header">
             <h1>
@@ -497,12 +507,19 @@
                 </div>
               </div>
             </div>
+            <div class="feedback-slideshow-buttons">
+              <div>
+                <div class="slideshow-button slideshow-button-active"></div>
+                <div class="slideshow-button"></div>
+                <div class="slideshow-button"></div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </main>
     <footer>
-      <div class="faq-block">
+      <div class="faq-block" id="faq">
         <div class="faq-header">
           <h1>
             Frequently Asked
